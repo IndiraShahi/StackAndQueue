@@ -39,6 +39,12 @@ namespace StackAndQueue
                 Console.WriteLine("The elements in queue are");
                 queue.Display();
 
+                queue.Dequeue();
+                queue.Dequeue();
+                queue.Dequeue();
+                Console.WriteLine("The elements in queue after dequeue");
+                queue.Display();
+
             }
         }
     }
