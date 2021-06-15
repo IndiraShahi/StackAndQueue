@@ -18,17 +18,7 @@ namespace StackAndQueue
 
             // print Top element of Stack
             Console.Write("\nTop element is {0}\n", obj.peek());
-            // Delete top element of Stack
-            obj.pop();
-            obj.pop();
-            obj.pop();
-
-
-            // print Stack elements
-            obj.display();
-
-            // print Top element of Stack
-            Console.Write("\nTop element is {0}\n", obj.peek());
+            
         }
     }
 }
