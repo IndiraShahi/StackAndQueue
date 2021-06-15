@@ -36,7 +36,7 @@ namespace StackAndQueue
             // would lead to stack overflow
             if (temp == null)
             {
-                Console.Write("\nHeap Overflow");
+                Console.Write("\nStack Overflow");
                 return;
             }
 
@@ -59,7 +59,7 @@ namespace StackAndQueue
 
         // Utility function to return
         // top element in a stack
-        public int peek()
+        public int peak()
         {
             // check for empty stack
             if (!isEmpty())
@@ -68,7 +68,7 @@ namespace StackAndQueue
             }
             else
             {
-                Console.WriteLine("Stack is empty");
+                Console.WriteLine(" Stack is empty ");
                 return -1;
             }
         }
@@ -79,7 +79,7 @@ namespace StackAndQueue
             // check for stack underflow
             if (top == null)
             {
-                Console.Write("\nStack Underflow");
+                Console.Write("\nStack Underflow ");
                 return;
             }
 
@@ -93,7 +93,7 @@ namespace StackAndQueue
             // check for stack underflow
             if (top == null)
             {
-                Console.Write("\nStack Underflow");
+                Console.Write("\nStack Underflow ");
                 return;
             }
             else

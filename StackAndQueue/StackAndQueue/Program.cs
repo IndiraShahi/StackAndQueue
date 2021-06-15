@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+
 namespace StackAndQueue
     {
         public class Program
@@ -17,7 +19,7 @@ namespace StackAndQueue
             obj.display();
 
             // print Top element of Stack
-            Console.Write("\nTop element is {0}\n", obj.peek());
+            Console.Write("\nTop element is {0}\n", obj.peak());
             // Delete top element of Stack
             obj.pop();
             obj.pop();
@@ -28,7 +30,16 @@ namespace StackAndQueue
             obj.display();
 
             // print Top element of Stack
-            Console.Write("\nTop element is {0}\n", obj.peek());
+            Console.Write("\nTop element is {0}\n", obj.peak());
+            {
+                QueueUsingLinkedList queue = new QueueUsingLinkedList();
+                queue.Enqueue(56);
+                queue.Enqueue(30);
+                queue.Enqueue(70);
+                Console.WriteLine("The elements in queue are");
+                queue.Display();
+
+            }
         }
     }
 }
